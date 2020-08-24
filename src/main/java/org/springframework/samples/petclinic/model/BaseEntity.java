@@ -28,9 +28,9 @@ import javax.persistence.MappedSuperclass;
  */
 @MappedSuperclass
 public class BaseEntity {
-    /*@Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    protected Integer id;*/
+    protected Integer id;
 
     public Integer getId() {
         return id;
