@@ -40,11 +40,11 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class ClinicServiceImpl implements ClinicService {
 
-    private PetRepository petRepository;
+    /*private PetRepository petRepository;
     private VetRepository vetRepository;
     private OwnerRepository ownerRepository;
     private VisitRepository visitRepository;
-
+*/
     @Autowired
     public ClinicServiceImpl(PetRepository petRepository, VetRepository vetRepository, OwnerRepository ownerRepository, VisitRepository visitRepository) {
         this.petRepository = petRepository;
